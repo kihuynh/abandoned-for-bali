@@ -19,8 +19,14 @@ class OrderItemsController < ApplicationController
     @order = current_order
     @item = @order.order_items.find(params[:id])
     @item.destroy
+    # respond_to do |format|
+    #   format.html { redirect_to cart_url, notice: "Item successfully removed" }
+    #   # format.json { head :no_content }
+    #   format.js   { render :layout => false }
+    # end
     @order.save
-    redirect_to cart_path
+    flash[:notice] = "Item has been removed from cart"
+
   end
 
   private
