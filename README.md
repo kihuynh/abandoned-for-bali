@@ -9,8 +9,9 @@ Taking a pre-existing project that has been abandoned by a developer who jumped 
 - User switching between cart page and product list switches without page reload.
 - Users can hide and show product details
 
-## Fixed Things
+## Fixed Things & Added things
 - Ability to add an item to shopping cart.
+- Added images to products
 ## Future AJAX
 - Users can remove item in their shopping cart without having the page to reload
 
@@ -32,6 +33,10 @@ To set up:
 - Gems (Bootstrap, Faker, Sass, etc)
 - Testing (rspec, shoulda-matchers, etc)
 - Postgres
+- AJAX
+
+## Image
+Image used from [Unsplash](https://unsplash.com/photos/FPZxgm_MIOA)
 
 ## License
 
