@@ -6,9 +6,10 @@
     <div class="col s4">
       <h4><%= product.name %></h4>
       <!-- <p><%= product.description %></p> -->
-      <p><%= link_to "Show Description", product_path(product), id: "#{product.id}", remote: true %></p>
+      <img src="https://bit.ly/2rnblhe" id="flower" alt="flower">
+      <p><%= link_to "More Info", product_path(product), id: "#{product.id}", remote: true %></p>
       <div id="product_description<%= product.id %>">
-+     </div>
+      </div>
       <p><%= number_to_currency product.price %></p>
       <%= form_for @order_item, remote: true  do |f| %>
         <%= f.hidden_field :product_id, value: product.id %>
