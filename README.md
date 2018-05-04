@@ -1,15 +1,19 @@
 ## Abandoned for Bali!
-#### Ruby on Rails, 5-4-2018
+#### Week 3 Code Review, Ruby on Rails, 5-4-2018
 
 ## Description
-Taking a pre-existing project that has been abandoned by a developer who jumped ship to go to Bali! Leaving a horrible project, and horrible documentation. It's my duty to add AJAX and refactor what I can. Maybe after this I might leave for Bali myself as well.
+Taking a pre-existing project that has been abandoned by a developer who jumped ship to go to Bali! Leaving a broken project, and horrible documentation. It's my duty to add AJAX and refactor what I can. Maybe after this I might leave for Bali myself as well.
 
 ## Current AJAX capabilities
-- TBA
-## Future AJAX
-- As user add items to the shopping cart, the shopping cart on navbar will update along with the cart.
+- User can add items to shopping cart, and the cart total updates at the same in navbar (I think)
+- User switching between cart page and product list switches without page reload.
 - Users can hide and show product details
+
+## Fixed Things
+- Ability to add an item to shopping cart.
+## Future AJAX
 - Users can remove item in their shopping cart without having the page to reload
+
 
 ### Previous documentation
 Here is the lovely documentation that the previous developer left before leaving forever to Bali.
